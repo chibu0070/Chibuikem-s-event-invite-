@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Summer Beach Party Invite</title>
+  <style>
+    body {
+      font-family: 'Poppins', sans-serif;
+      background: linear-gradient(to right, #a1c4fd, #c2e9fb);
+      margin: 0;
+      padding: 40px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+    }
+    .invite {
+      background-color: rgb;
+      padding: 30px;
+      border-radius: 16px;
+      box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+      max-width: 500px;
+      text-align: center;
+    }
+    h1 {
+      color: #2d6a4f;
+      margin-bottom: 10px;
+    }
+    p {
+      font-size: 1.1em;
+      margin: 8px 0;
+      color: rgb(219, 13, 219);
+    }
+    .guests {
+      margin-top: 20px;
+      text-align: left;
+    }
+    .guests h3 {
+      margin-bottom: 10px;
+      color: #2d6a4f;
+    }
+    .guests ul {
+      list-style: none;
+      padding-left: 0;
+    }
+    .guests li {
+      background: #e9f5f2;
+      padding: 8px;
+      margin-bottom: 6px;
+      border-radius: 8px;
+    }
+    .rsvp-button {
+      margin-top: 30px;
+      padding: 12px 24px;
+      background-color: #2d6a4f;
+      color: white;
+      border: none;
+      border-radius: 30px;
+      font-size: 1em;
+      cursor: pointer;
+      transition: background 0.3s;
+      text-decoration: none;
+      display: inline-block;
+    }
+    .rsvp-button:hover {
+      background-color: #40916c;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="invite">
+    <h1>🌴 Summer Beach Party 🌴</h1>
+    <p><strong>Date:</strong> July 12, 2025</p>
+    <p><strong>Location:</strong> Crystal Cove Beach, California</p>
+    <p>Join us for a day of sun, sand, and surf! Bring your best beachwear and your brightest smile. ☀️🏖️</p>
+
+    <div class="guests">
+      <h3>Guest List</h3>
+      <ul>
+        <li>Alex</li>
+        <li>Jordan</li>
+        <li>Taylor</li>
+        <li>Casey</li>
+      </ul>
+    </div>
+
+    <a href="#" class="rsvp-button">RSVP Now</a>
+  </div>
+
+</body>
+</html>
